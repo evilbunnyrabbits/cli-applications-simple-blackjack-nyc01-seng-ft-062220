@@ -36,11 +36,7 @@ def initial_round
   card_2 = deal_card
   sum = card_1 + card_2
   print display_card_total(sum)
-  
   return card_1 + card_2
-  
-
-  
 end
 
 def hit?
@@ -49,6 +45,7 @@ end
 
 def invalid_command
   # code invalid_command here
+  print()
 end
 
 #####################################################
