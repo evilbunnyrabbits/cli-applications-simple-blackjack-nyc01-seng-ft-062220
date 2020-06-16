@@ -1,17 +1,22 @@
 def welcome
   # code #welcome here
+  puts "Welcome to backjack"
 end
 
 def deal_card
   # code #deal_card here
+  card = rand(1..11)
+  return card
 end
 
-def display_card_total
+def display_card_total(number)
   # code #display_card_total here
+  return "Your cards add up to #{card_total}"
 end
 
 def prompt_user
   # code #prompt_user here
+  
 end
 
 def get_user_input
