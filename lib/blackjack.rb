@@ -27,8 +27,7 @@ end
 
 def end_game(number)
   # code #end_game here
-  if number > 21
-    puts "Sorry, you hit #{number}. Thanks for playing!"
+  puts "Sorry, you hit #{number}. Thanks for playing!"
 end
 
 def initial_round
