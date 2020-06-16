@@ -1,6 +1,6 @@
 def welcome
   # code #welcome here
-  puts "Welcome to backjack"
+  return "Welcome to backjack"
 end
 
 def deal_card
