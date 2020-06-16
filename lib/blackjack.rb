@@ -34,9 +34,12 @@ def initial_round
   # code #initial_round here
   card_1 = deal_card
   card_2 = deal_card
+  sum = card_1 + card_2
+  puts display_card_total(sum)
+  
   return card_1 + card_2
   
-  return display_card_total(card_1 + card_2)
+
   
 end
 
