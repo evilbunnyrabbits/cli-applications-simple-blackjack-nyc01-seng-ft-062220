@@ -16,6 +16,7 @@ end
 
 def prompt_user
   # code #prompt_user here
+  puts 
   
 end
 
